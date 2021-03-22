@@ -32,6 +32,10 @@ gradle*
 # Local configuration file (sdk path, etc)
 local.properties
 
+# Signing
+keystore.properties
+release.keystore
+
 # Eclipse project files
 .classpath
 .project
@@ -45,13 +49,13 @@ proguard/
 libs/
 obj/
 
-# IDE related 
+# IDE related
 .idea/
 *.iml
 aFWall/*.iml
 .settings/
 
-# Proguard 
+# Proguard
 proguard-project.txt
 copy.sh
 make
